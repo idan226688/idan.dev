@@ -16,7 +16,7 @@ const About = () => {
             <div className="prose text-gray-300 space-y-4 max-w-none">
               <p>
                 I'm a software developer with a bachelor's degree in Computer Science and specialized expertise
-                in C and C++ programming. I have a passion for system-level programming, embedded systems, and creating
+                in C and C++ programming. I have a passion for system-level programming, embedded systems, backend developement and creating
                 efficient, high-performance solutions.
               </p>
               

@@ -22,11 +22,17 @@ const projects = [
     isPrivate: true,
   },
   {
-    title: "Portfolio Website",
+    title: "JobSeek – AI-Powered CV-to-Job Matcher",
+    description: "AI-powered backend application that matches CVs to job descriptions using LLMs",
+    tags: ["Java", "Spring Boot", "MySQL", "Ollama", "Backend Development"],
+    isPrivate: false,
+  },
+  {
+    title: "job matching ",
     description: "Modern, responsive developer portfolio with terminal-inspired design",
     tags: ["React", "TypeScript", "TailwindCSS", "Web Development"],
     isPrivate: false,
-  },
+  }
 ];
 
 const Projects = () => {

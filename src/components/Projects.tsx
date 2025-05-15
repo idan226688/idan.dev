@@ -8,37 +8,43 @@ const projects = [
     description: "Distributed IoT file storage system using RAID 0+1 architecture, written in C and C++",
     tags: ["C", "C++", "IoT", "Distributed Systems"],
     isPrivate: true,
+    project: "#"
   },
   {
     title: "Watchdog Software",
     description: "Fault-tolerant, multi-threaded watchdog program in C to monitor and restart critical processes",
     tags: ["C", "Multithreading", "Fault Tolerance"],
     isPrivate: true,
+    project: "#"
   },
   {
     title: "Bacteria Level Prediction in Water",
     description: "Predictive models using Python to estimate bacterial concentrations in water, leveraging data analysis and machine learning techniques",
     tags: ["Python", "Machine Learning", "Big Data", "Analytics"],
     isPrivate: true,
+    project: "#"
   },
   {
     title: "JobSeek – AI-Powered CV-to-Job Matcher",
     description: "AI-powered backend application that matches CVs to job descriptions using LLMs",
     tags: ["Java", "Spring Boot", "MySQL", "Ollama", "Backend Development"],
     isPrivate: false,
+    project: "https://github.com/idan226688/job-seek"
+  },
+  {
+    title: "Portfolio Website",
+    description: "Modern, responsive developer portfolio with terminal-inspired design",
+    tags: ["React", "TypeScript", "TailwindCSS", "Web Development"],
+    isPrivate: false,
+    project: "https://github.com/idan226688/idan.dev"
+  },
+  {
+    title: "Resume Website",
+    description: "A website which shows my cv",
+    tags: ["React", "TypeScript", "TailwindCSS", "Web Development"],
+    isPrivate: false,
+    project: "https://github.com/idan226688/idan.cv"
   }
-  // {
-  //   title: "Portfolio Website",
-  //   description: "Modern, responsive developer portfolio with terminal-inspired design",
-  //   tags: ["React", "TypeScript", "TailwindCSS", "Web Development"],
-  //   isPrivate: false,
-  // },
-  // {
-  //   title: "Resume Website",
-  //   description: "A website which shows my cv",
-  //   tags: ["React", "TypeScript", "TailwindCSS", "Web Development"],
-  //   isPrivate: false,
-  // }
 ];
 
 const Projects = () => {
@@ -94,8 +100,8 @@ const Projects = () => {
                     hoveredIndex === index ? 'opacity-100' : 'opacity-0'
                   } duration-300`}>
                     {!project.isPrivate ? (
-                      <a 
-                        href="https://github.com/idan226688/job-seek" 
+                      <a
+                        href = {project.project}
                         className="flex items-center text-sm text-terminal-green hover:underline"
                       >
                         View Project <ArrowRight className="ml-1 h-4 w-4" />

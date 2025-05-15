@@ -101,7 +101,7 @@ const Projects = () => {
                   } duration-300`}>
                     {!project.isPrivate ? (
                       <a
-                        href = {project.project}
+                        href = {project.project} target="_blank"
                         className="flex items-center text-sm text-terminal-green hover:underline"
                       >
                         View Project <ArrowRight className="ml-1 h-4 w-4" />

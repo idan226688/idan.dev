@@ -28,8 +28,8 @@ const projects = [
     isPrivate: false,
   },
   {
-    title: "job matching ",
-    description: "Modern, responsive developer portfolio with terminal-inspired design",
+    title: "Resume Website",
+    description: "A website which shows my cv",
     tags: ["React", "TypeScript", "TailwindCSS", "Web Development"],
     isPrivate: false,
   }

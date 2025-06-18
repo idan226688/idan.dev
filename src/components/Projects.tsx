@@ -7,8 +7,8 @@ const projects = [
     title: "IoT Cloud File Storage System",
     description: "Distributed IoT file storage system using RAID 0+1 architecture, written in C and C++",
     tags: ["C", "C++", "IoT", "Distributed Systems"],
-    isPrivate: true,
-    project: "#"
+    isPrivate: false,
+    project: "https://github.com/idan226688/IOT-cloud"
   },
   {
     title: "Watchdog Software",
